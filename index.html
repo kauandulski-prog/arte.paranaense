@@ -1,19 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitetura e os Barões da Erva-Mate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<h2>Antes x Hoje</h2>
-    <p>Veja a transformacao da arquitetura paranaense.</p>
-    <button onclick="trocarTema()">Mudar Tema</button>
+<header>
+    <h1>Barões da Erva-Mate</h1>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#historia">História</a>
+        <a href="#arquitetura">Arquitetura</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section id="inicio" class="hero">
+    <div class="overlay">
+        <h2>Arquitetura e os Barões da Erva-Mate</h2>
+        <p>
+            Descubra como a riqueza da erva-mate transformou a arquitetura e a história do Paraná.
+        </p>
+        <button onclick="mostrarMensagem()">Explorar</button>
+    </div>
+</section>
+
+<section id="historia">
+    <h2>Quem eram os Barões da Erva-Mate?</h2>
+    <p>
+        Os barões da erva-mate foram empresários e famílias influentes que enriqueceram com a produção
+        e exportação da erva-mate entre os séculos XIX e XX, impulsionando a economia paranaense.
+    </p>
+</section>
+
+<section id="arquitetura">
+    <h2>Influência na Arquitetura</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Casarões</h3>
+            <p>Grandes casarões foram construídos em Curitiba e outras cidades.</p>
+        </div>
+
+        <div class="card">
+            <h3>Palacetes</h3>
+            <p>Construções luxuosas inspiradas na arquitetura europeia.</p>
+        </div>
+
+        <div class="card">
+            <h3>Patrimônio</h3>
+            <p>Muitos desses edifícios ainda são preservados atualmente.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Construções Históricas</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Palacete Leão Júnior</h3>
+            <p>Importante símbolo da riqueza da erva-mate.</p>
+        </div>
+
+        <div class="card">
+            <h3>Museu Paranaense</h3>
+            <p>Parte importante da história cultural paranaense.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Antes x Hoje</h2>
+    <p>
+        Compare a arquitetura histórica do Paraná com as construções atuais.
+    </p>
+</section>
+
+<section>
+    <h2>Curiosidades</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Economia</h3>
+            <p>A erva-mate foi uma das bases da economia do Paraná.</p>
+        </div>
+
+        <div class="card">
+            <h3>Cultura</h3>
+            <p>Influenciou arquitetura, urbanização e crescimento das cidades.</p>
+        </div>
+    </div>
+</section>
+
+<section id="galeria">
+    <h2>Galeria Histórica</h2>
+    <p>Aqui você poderá adicionar imagens depois.</p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Projeto educacional sobre a história paranaense.</p>
+    <button onclick="trocarCor()">Mudar Tema</button>
 </section>
 
 <footer>
-    <p>Projeto Agrinho 2026 - Kauan</p>
+    <p>Arquitetura e os Barões da Erva-Mate</p>
 </footer>
 
 <script>
-function mostrarInfo(){
-    alert("A erva-mate teve grande impacto econômico e arquitetônico no Paraná.");
+function mostrarMensagem() {
+    alert("Bem-vindo ao site!");
 }
 
-function trocarTema(){
+function trocarCor() {
     document.body.style.background = "#111";
 }
 </script>
