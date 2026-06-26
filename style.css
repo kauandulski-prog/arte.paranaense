@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, blue, red, black);
+    background: linear-gradient(90deg, blue, purple, black);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, black, blue, red);
+    background: linear-gradient(135deg, black, blue, purple);
 }
 
 .overlay {
@@ -65,7 +65,7 @@ nav a:hover {
 button {
     padding: 15px 30px;
     border: none;
-    background: red;
+    background: purple;
     color: white;
     font-size: 18px;
     border-radius: 10px;
@@ -98,7 +98,7 @@ section h2 {
     background: #151515;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(255,0,0,0.3);
+    box-shadow: 0 0 20px #8f03ec4d;
     transition: 0.4s;
 }
 
